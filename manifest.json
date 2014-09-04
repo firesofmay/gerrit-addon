@@ -1,14 +1,20 @@
 {
-  "name": "Gerrit - Set Last Patch Set",
-  "version": "1.0",
-  "manifest_version": 2,
-  "browser_action": {
-    "name": "Gerrit - Set Last Patch Set.",
-    "default_icon": "updategerrit.png"
-  },
-  "background":{
-    "scripts":["background.js"]
-  },
-  "icons": { "96": "updategerrit.png"},
-  "permissions":["http://gerrit.helpshift.com/#/c/*"] //Put All your URL here
+    "name": "Gerrit - Set Last Patch Set",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "name": "Gerrit - Set Last Patch Set.",
+        "default_icon": "updategerrit.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "96": "updategerrit.png"
+    },
+    "permissions": [
+        "http://gerrit.helpshift.com/#/c/*"
+    ]
 }
